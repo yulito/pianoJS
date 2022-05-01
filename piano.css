@@ -1,0 +1,86 @@
+body{
+    background-image: url("fondo-uno.jpg");
+}
+.container{
+    margin-top: 100px;
+}
+.tablero{
+    height: 150px;
+    width: 90%;
+    min-width: 400px;
+    margin:auto;
+
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgba(35, 110, 241, 0.864);
+    font-family: monospace;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items:flex-end;
+}
+.tab{
+    flex: 1;
+}
+button{
+    height: 80px;
+    width: 80px;
+}
+.v1{
+    background-color: rgba(6, 146, 6, 0.823);
+}
+h1{
+    font-size: 32px;
+}
+.teclas{
+    height: 200px;
+    width: 90%;
+    min-width: 400px;
+
+    margin:auto;
+
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgba(124, 112, 112, 0.867);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.tecla{
+    flex:1;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.blanca{
+    background-color: aliceblue;
+    height: 150px;
+    margin-top: 50px;
+}
+.blanca:hover{
+    background-color: rgba(188, 215, 238, 0.88);
+}
+.blanca:active{
+    background-color: rgba(241, 252, 34, 0.88);
+}
+.negro{
+    height: 150px;
+    background-color: black;
+    z-index: 10;
+}
+.negro:hover{
+    background-color: rgba(43, 39, 39, 0.88);
+}
+.negro:active{
+    background-color: rgba(13, 231, 93, 0.942);
+}
+/* COLORES AL CLIQUEAR */
+select{
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    color: red;
+}
